@@ -56,7 +56,6 @@ body {
 }
 
 #two-dimension-p1 {
-
     font-size: 16px;
     color: #333333;
 }
@@ -95,7 +94,7 @@ header > #nav {
 
 #banner {
     height: 480px;
-    background: #f3f3f3;
+    background: #dddddd;
     margin-top: -23px;
     margin-bottom: 0px;
 }
@@ -214,16 +213,15 @@ header > #nav {
 
 #solution-method {
     width: 1032px;
-    height: 258px;
-    background: #ffffff;
+    height: 210px;
+    background: #f6f6f6;
     position: relative;
-    top: -130px;
+    top: -100px;
 }
 
 #solution {
     width: 958px;
     margin: -20px auto;
-    background: #f6f6f6;
 }
 
 #solution > .solution-server {
@@ -235,7 +233,7 @@ header > #nav {
     width: 0px;
     padding: 58px 74px;
     background: #006eaa;
-    margin: 0 auto;
+    margin: -20px auto;
 }
 
 #solution .text > p {
@@ -248,11 +246,13 @@ header > #nav {
     font-size: 20px;
     font-weight: bold;
     color: #333333;
+    margin-top:40px;
 }
 
 #solution .text > .company {
     font-size: 12px;
     color: #999999;
+    margin-bottom:20px;
 }
 
 #solution > .solution-consultant {
@@ -277,6 +277,7 @@ header > #nav {
     text-align: center;
     line-height: 171px;
     margin-right: 32px;
+    margin-top:-20px;
 }
 
 .jump-l > span {
@@ -291,10 +292,76 @@ header > #nav {
     text-align: center;
     line-height: 171px;
     margin-right: 32px;
+    margin-top:-20px;
 }
 
 .jump-r > span {
     font-size: 54px;
     font-weight: bolder;
     color: blue;
+}
+
+#qimeng-intro{
+    height:370px;
+    position:relative;
+    top:-100px;
+    background:#ffffff;
+}
+
+#qimeng-intro > .title {
+    font-family:"微软雅黑";
+    margin:40px 0 30px 0;
+}
+
+.title > .company {
+    font-size:24px;
+    color:#006eaa;
+    font-weight: bold;
+}
+
+.title > .company-en {
+    font-size:20px;
+    color:#999999;;
+}
+
+#qimeng-intro > .detail {
+    font-size:14px;
+    color:#666666;
+    margin:10px 0;
+}
+
+#qimeng-intro > .experience  .method{
+    padding:17px 18px;
+    background: #006eaa;
+    width:300px;
+}
+
+#qimeng-intro > .experience > .self-position{
+    float:left;
+    margin-right:6px;
+}
+
+#qimeng-intro > .experience > span{
+    font-size:14px;
+    color:#ffffff;
+}
+
+#qimeng-intro > .experience .minus-sign{
+    display: block;
+}
+
+#qimeng-intro > .experience .text {
+    padding:10px 17px;
+    width:300px;
+    border:1px solid #e8e8e8;
+}
+
+#qimeng-intro > .experience > .platform-build{
+    float:left;
+    margin:0 6px;
+}
+
+#qimeng-intro > .experience > .university-operative{
+    float:left;
+    margin-left: 6px;
 }
